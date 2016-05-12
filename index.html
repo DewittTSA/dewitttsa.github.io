@@ -1,1 +1,17 @@
-<iframe src="https://www.duckduckgo.com" style="border: 0; width: 100%; height: 100%"></iframe>
+<iframe onmousewheel="" frameborder="0" style="border-width:0;" id="tl-timeline-iframe" width="900" height="480" src="http://www.tiki-toki.com/timeline/embed/650487/1515972543/"></iframe>
+<script type="text/javascript">
+if (window.postMessage) {
+var tlMouseupFunc = function() {
+var tlFrame = document.getElementById("tl-timeline-iframe");
+if (tlFrame.contentWindow && tlFrame.contentWindow.postMessage) {
+tlFrame.contentWindow.postMessage("mouseup","*");
+}
+}
+if (typeof window.addEventListener != "undefined") {
+window.addEventListener("mouseup", tlMouseupFunc, false);
+}
+else if (typeof window.attachEvent != "undefined") {
+window.attachEvent("onmouseup", tlMouseupFunc);
+}
+}
+</script>
