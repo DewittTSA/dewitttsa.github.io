@@ -1,0 +1,21 @@
+a {
+    float: left;
+    clear: left;
+    display:inline
+}
+
+img {
+    float: center;
+    display:inline
+    margin: 5 px solid #000000
+}
+
+p {
+
+font-family: "Comic Sans", "Times New Roman", "Sans Serif", "Arial"
+
+}
+
+
+
+
