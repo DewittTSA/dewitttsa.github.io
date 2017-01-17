@@ -1,3 +1,10 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+  
 <?php
 $action = $_GET["action"];
 $myText = $_POST["mytext"];
@@ -16,13 +23,14 @@ if($action = "save") {
     <input type=text name="mytext">
     <input type="submit" value="save">
   </form>
-</body>
-</html>
-
-<p>
+  
+  <p>
 
 HAVE A GREAT DAY MAN
 
 UR RESPONSE HAS BEEN RECORDED.
 
 </p>
+
+</body>
+</html>
