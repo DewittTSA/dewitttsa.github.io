@@ -2,23 +2,30 @@ a {
     float: left;
     clear: left;
     display:inline;
-    font-family: "Comic Sans", "Times New Roman", "Sans Serif", "Arial";
+    font-family: "Comic Sans MS", "Times New Roman", "Sans Serif", "Arial";
 font-size: 35px;
 }
 
 img {
     float: center;
-    margin: 5 px solid #FF0000;
+    margin: 5px solid #FF0000;
     
 }
 
 p {
 
 font-family: "Comic Sans", "Times New Roman", "Sans Serif", "Arial";
-font-size: 35px;
+font-size: 15px;
 
 }
 
+.penis a {
+    
+    float: center;
+    font-family: "Comic Sans MS", "Times New Roman", "Arial", "Sans Serif";
+        font-size: 60px;
+    
+}
 
 
 
