@@ -8,7 +8,7 @@ font-size: 35px;
 
 img {
     float: center;
-    margin: 5px solid #FF0000;
+    border: 5px solid #FF0000;
     
 }
 
@@ -19,7 +19,7 @@ font-size: 15px;
 
 }
 
-.penis a {
+.hello a {
     
     float: center;
     font-family: "Comic Sans MS", "Times New Roman", "Arial", "Sans Serif";
@@ -29,7 +29,7 @@ font-size: 15px;
 
 body {
     
-        background-image: url("10121.jpg);
+        background-image: url("10121.jpg");
          background-color: light-blue;
             background-size: 100% 100%;
             
